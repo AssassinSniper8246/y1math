@@ -5,5 +5,5 @@ END =
 num = 
 
 for i in range(START, END+1):
-  if :
+  if i%7 == 0:
     print(i, end=' ')
